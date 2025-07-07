@@ -1,0 +1,15 @@
+# Forzar detección de lenguaje principal
+*.py linguist-detectable=true
+
+# Marcar archivos de documentación
+*.md linguist-documentation=true
+*.log linguist-documentation=true
+
+# Tratar archivos como texto (evita problemas de fin de línea)
+*.py text
+*.md text
+*.txt text
+*.log text
+
+# Normalizar saltos de línea (LF)
+* text=auto eol=lf
